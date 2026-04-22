@@ -8,7 +8,7 @@ import { toast } from "sonner";
 
 interface ProductCardProps {
   product: {
-    id: number;
+    id: string;
     name: string;
     price: number;
     category: string;

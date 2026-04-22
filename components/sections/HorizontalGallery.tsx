@@ -11,28 +11,28 @@ gsap.registerPlugin(ScrollTrigger);
 
 const featuredItems = [
   { 
-    id: 1, 
+    id: "1", 
     title: "The Classic Walnut", 
     cat: "Traditional", 
     src: "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?q=80&w=2080&auto=format&fit=crop",
     price: "₹2,499"
   },
   { 
-    id: 2, 
+    id: "2", 
     title: "Gold Leaf Artisan", 
     cat: "Luxury", 
     src: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=2070&auto=format&fit=crop",
     price: "₹4,999"
   },
   { 
-    id: 3, 
+    id: "3", 
     title: "Minimalist Birch", 
     cat: "Modern", 
     src: "https://images.unsplash.com/photo-1544411047-c491574abbde?q=80&w=2070&auto=format&fit=crop",
     price: "₹1,899"
   },
   { 
-    id: 4, 
+    id: "4", 
     title: "Obsidian Slate", 
     cat: "Contemporary", 
     src: "https://images.unsplash.com/photo-1617050318658-a9a3175e34cb?q=80&w=2070&auto=format&fit=crop",
