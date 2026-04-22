@@ -41,8 +41,8 @@ const featuredItems = [
 ];
 
 export default function HorizontalGallery() {
-  const sectionRef = useRef(null);
-  const triggerRef = useRef(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
