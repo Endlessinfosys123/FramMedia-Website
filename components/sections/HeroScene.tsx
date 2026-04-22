@@ -54,7 +54,7 @@ function Frame({ position, rotation, scale, color, delay }: FrameProps) {
 }
 
 export default function HeroScene() {
-  const frames = useMemo(() => [
+  const frames: FrameProps[] = useMemo(() => [
     { position: [-1.5, 1, -2], rotation: [0.2, 0.5, 0], scale: [1.2, 1.2, 1.2], color: "#D4AF37", delay: 0 },
     { position: [1.5, -0.5, -1], rotation: [-0.3, -0.4, 0.1], scale: [1, 1, 1], color: "#FFFFFF", delay: 2 },
     { position: [-0.5, -1.5, -3], rotation: [0.5, -0.2, -0.2], scale: [1.5, 1.5, 1.5], color: "#0F0F0F", delay: 4 },
